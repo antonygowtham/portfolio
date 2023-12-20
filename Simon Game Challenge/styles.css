@@ -50,3 +50,13 @@ body {
   box-shadow: 0 0 20px white;
   background-color: grey;
 }
+
+.start-button{
+  padding-left: 30px ;
+  padding-right:30px ;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 10px;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+}

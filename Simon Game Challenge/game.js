@@ -18,6 +18,17 @@ $(document).ready(function(){
           }
     });
 
+    //Start button
+    $(".start-button").click(function(){
+        if (!started) {
+            startOver();
+            $("#result").text("");
+            nextSequence();
+            this.innerHTML="restart";
+            
+          }
+    });
+
 
     //User iteraction ,Button Click Event
     $(".btn").click(function(){
