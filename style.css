@@ -16,6 +16,12 @@
     animation: gradient-animation 18s ease infinite;
   }
 
+  .gradient-redish-background {
+    background: linear-gradient(300deg, #1e1414, #600349, rgb(77, 6, 69));
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+
   .gradient-greeny-background {
     background: linear-gradient(300deg, #d1ecbc, #9fa39c, rgb(166, 172, 164));
     background-size: 180% 180%;
@@ -32,4 +38,8 @@
     100% {
       background-position: 0% 50%;
     }
+  }
+
+  .icon-link-r {
+    text-decoration: none; /* Remove underline from anchor tag */
   }
